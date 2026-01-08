@@ -54,3 +54,5 @@ function cadastrar() {
 
     res.innerHTML='Cadastro realizado com sucesso!!'
 }
+
+document.getElementById('ano').textContent = new Date().getFullYear();

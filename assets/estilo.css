@@ -1,5 +1,6 @@
 body{
-    background-color: rgb(49, 118, 247);
+     background: #020024;
+    background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
     font: normal 15pt arial;
     
 }
@@ -9,23 +10,27 @@ header{
 }
 section{
     background: white;
-    border-radius: 20px;
-    padding: 15px;
-    width: 500px;
+    border-radius: 30px;
+    padding: 20px;
+    width: 40%;
     margin: auto;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.404);
+    box-shadow: 5px 5px 10px rgba(22, 181, 209, 0.404);
     
 }
-/*section p{
-    text-align: center;
+section form input{
+    border-radius: 15px;
+    padding: 12px;
 }
-.email{
-    display: flex;
-    justify-content: center;
-    width: 50%;
-}*/
+a{
+    text-decoration: none; /*remove alinha de baixo da tag <a>*/
+    color: inherit; /*faz o nome ficar na cor do botão*/
+}
+button{
+    border: 1px solid rgb(0, 0, 0);
+    width: 25%;
+    padding: 8px;
+}
 footer{
     color: white;
     text-align: center;
-    font-style: italic;
 }

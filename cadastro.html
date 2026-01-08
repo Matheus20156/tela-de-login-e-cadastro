@@ -8,25 +8,27 @@
 </head>
 <body>
     <header>
-        <h3>Cadastro</h3>
+        <h3> Tela de Cadastro</h3>
     </header>
     <section>
-        <p>Insere o teu e-mail, número de telemóvel 
-            ou nome de utilizador e vamos enviar-te 
-            uma ligação para recuperares o acesso à tua conta.</p>
-            <div >
+        
+            <form>
                 <p><label for="txtnome">Nome Completo:</label> <input type="text" name="nome" id="txtn" placeholder="Nome Completo"></p>
                 <p><label for="txttel">Telefone: </label> <input type="tel" name="telefone" id="tel" placeholder="(81)99999-9999"></p>
                 <p><label for="txtem">E-mail:</label><input type="email" id="email" placeholder="exemplo@email.com" class="email"></p><!--o placeholder permite que eu escreva dentro do campo de texto para o usuário ver-->
                 <p><label for="txts">Senha:</label><input type="password" name="senha" id="txts" placeholder="Senha"></p>
                 <p><label for="txtrs">Repita a Senha:</label><input type="password" name="repita" id="txtr" placeholder="Senha"></p>
-                <p><a href="/index.html">voltar para a tela de login?</a></p>
-                <p><button type="button" onclick="cadastrar()">Cadastrar</button></p>
+                <p><button><a href="/index.html">Tela de login?</a></button></p>
+                <p><button type="button" onclick="cadastrar()">Cadastrar</button> <button type="reset" value="menu" >Apagar</button></p>
                 
                 
-            </div>
+            </form>
             <div id="res"></div>
     </section>
+
+    <footer>
+        <p>&copy; <span id="ano"></span> Matheus. Todos os Direitos Resevados.</p>
+    </footer>
     <script src="/assets/main.js"></script>
 </body>
 </html>
